@@ -1,34 +1,35 @@
-📌 Fonctionnalités
+# SpeechDetectionV1
 
-Reconnaissance vocale avec SpeechRecognition
+Un script simple de reconnaissance vocale avec SpeechRecognition en Python. 
+
+## Fonctionnalités
 
 Synthèse vocale avec pyttsx3
 
 Commandes disponibles :
+- "Ouvre nom_du_fichier" → Ouvre un fichier ou dossier local
+- "Cherche terme" → Recherche sur Google
+- "Arrête" → Ferme l'assistant
 
-"Ouvre nom_du_fichier" → Ouvre un fichier ou dossier local
+## Prérequis
 
-"Cherche terme" → Recherche sur Google
+- Python 3.x (testé avec Python 3.13)
+- Bibliothèques Python :
+  ```bash
+  - pip install speechrecognition pyttsx3 pyaudio
+    
+## Installation
 
-"Arrête" → Ferme l'assistant
+1. Clonez le dépôt depuis GitHub :
+   ```bash
+   git clone https://github.com/Tifeux/SpeechDetectionV1
 
-**Installation**
+## Problèmes possibles
 
-1. Installer les dépendances
-
-Assurez-vous d'avoir Python, puis :
-
-pip install speechrecognition pyttsx3 pyaudio
-
-2. Exécuter le programme
-
-python assistant_vocal.py
-
-❓ Problèmes possibles
-
-Problème avec `` sur Windows :
-
+Problème avec sur Windows :
+```bash
 pip install pipwin
 pipwin install pyaudio
+```
 
 Micro non détecté ? Vérifiez vos périphériques audio.
